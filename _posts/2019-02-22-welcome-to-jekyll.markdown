@@ -19,4 +19,5 @@ categories: jekyll update
 ![quiv function](/../img/1.png)
 
 + ***Neighborhood Attention***
++ 
 $$ a_m $$

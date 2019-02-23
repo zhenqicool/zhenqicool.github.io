@@ -8,7 +8,14 @@ categories: jekyll update
 + Ignoring a major class of CF(collaborative flitering) models, neighborhood or memory-based approaches.
 
 #### 2. CMN Model
-(1). internal user-specific memory
-+ 
-(2). internal item-specific memory
-(3). collective neighborhood state
++ Three parts
+1. internal user-specific memory
+2. internal item-specific memory
+3. collective neighborhood state
+
++ ***User Embedding***
+1. ***mu*** is target user embeding, ***quiv*** is a scalar which size represents similarity between ***u*** and ***v***, ***i***.
+![quiv function](/../img/1.png)
+
++ ***Neighborhood Attention***
+1. 

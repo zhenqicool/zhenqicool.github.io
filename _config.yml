@@ -1,7 +1,7 @@
 title:             Zhenqi
-email:             your-email@example.com
-description:       A Blog Theme by Start Bootstrap
-author:            Start Bootstrap
+email:             1172959695@qq.com
+description:       I put my notes in the study period, they are mainly about the deep learning research and implementation. Hope that I can progress together with you.
+author:            Zhenqi Sun
 # baseurl:           ""
 url:               "https://zhenqicool.github.io"
 
@@ -13,7 +13,7 @@ facebook_username: StartBootstrap
 # Build settings
 markdown:          kramdown
 paginate:          5
-paginate_path:     "/posts/page:num/"
+# paginate_path:     "/posts/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-paginate

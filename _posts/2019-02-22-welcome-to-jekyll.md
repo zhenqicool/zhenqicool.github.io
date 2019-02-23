@@ -15,9 +15,9 @@ categories: jekyll update
 3. collective neighborhood state
 
 + ***User Embedding***
-1. $E=mc^2$  is target user embeding, ***quiv*** is a scalar which size represents similarity between ***u*** and ***v***, ***i***.
-![quiv function](./img/note/quiv.png)
+1. **$m_u$** is target user embeding, **$q_{uiv}$** is a scalar which size represents similarity between **$u$** and **$v$**, **$i$**.
+
+$$ q_{uiv}=m_u^Tm_v $$
 
 + ***Neighborhood Attention***
 + 
-$$ a_m $$

@@ -16,7 +16,7 @@ categories: jekyll update
 
 + ***User Embedding***
 1. $E=mc^2$  is target user embeding, ***quiv*** is a scalar which size represents similarity between ***u*** and ***v***, ***i***.
-![quiv function](/../img/1.png)
+![quiv function](./img/note/quiv.png)
 
 + ***Neighborhood Attention***
 + 

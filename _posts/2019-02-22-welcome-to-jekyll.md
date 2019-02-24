@@ -32,4 +32,6 @@ $$ o_{ui} = \sum_{v\in N(i)}p_{uiv}c_{v} $$
 + ($c_v$ is anthor embedding vector for user $v$; $C$ with the same dimensions as $M$; $o_{ui}$ represents **a weighted sum** of neighborhood composed of relations between the specific user, item and the neighborhood.)
 
 #### ***Output Model***
+#### ***Outpu***
+$\sum_i^N$
 

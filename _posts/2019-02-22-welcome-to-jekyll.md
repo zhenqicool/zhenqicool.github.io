@@ -32,6 +32,9 @@ $$ o_{ui} = \sum_{v\in N(i)}p_{uiv}c_{v} $$
 + ($c_v$ is anthor embedding vector for user $v$; $C$ with the same dimensions as $M$; $o_{ui}$ represents **a weighted sum** of neighborhood composed of relations between the specific user, item and the neighborhood.)
 
 #### ***Output Model***
-#### ***Outpu***
-$\sum_i^N$
++ The output model smoothly **integrates a nonlinear interaction** between **the local collective neighborhood state** and **the global user and item memories**, while existing method lack of the nonlinear interaction between the two items, **limiting the extent of captured relations**.
++ For **a given user $u$** and **item $i$** the ranking score is given as:
 
+$$ \hat{r}_{ui} = v^T\varnothing(\ U(m_u\odot e_i) + Wo_{ui} + b \ ) $$
+
++ (where $\odot$ is **elementwise product**; $v,b\in \mathbb{R}^d$; and $U,W \in \mathbb{R}^{d*d}$ are **parameters to be learned**; $\varnothing$ is a **nonlinear activation function**, empirically the rectified unit(**ReLU**) $\varnothing(x) =  max(0,x)$ to **work best** due to its **nonsaturating nature and suitability for sparse data**.)

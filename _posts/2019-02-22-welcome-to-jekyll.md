@@ -38,3 +38,16 @@ $$ o_{ui} = \sum_{v\in N(i)}p_{uiv}c_{v} $$
 $$ \hat{r}_{ui} = v^T\varnothing(\ U(m_u\odot e_i) + Wo_{ui} + b \ ) $$
 
 + (where $\odot$ is **elementwise product**; $v,b\in \mathbb{R}^d$; and $U,W \in \mathbb{R}^{d*d}$ are **parameters to be learned**; $\varnothing$ is a **nonlinear activation function**, empirically the rectified unit(**ReLU**) $\varnothing(x) =  max(0,x)$ to **work best** due to its **nonsaturating nature and suitability for sparse data**.)
+
+#### Multiple Hops
++ The hops help to look back and reconsider **the most similar users** to infer **more precise neighborhood**.
++ The model apply a nonlinear prejection between hops:
+
+$$ z_{ui}^h = \varnothing(W^hz_{ui}^{h-1} + o_{ui}^h + b^h) $$
+
++ The initial query $z_{ui}^0 = m_u + e_i$.
++ The user preference $z_{ui}^h$ is used to **solicit the user neighborhood**. 
+
+$$ q_{uiv}^{h+1} = (z_{ui}^{h})^Tm_v \ \ \forall v \in N(i) $$
+
++ The output model receives the weighted neighborhood vector from the last hop $H^{th}$ to produce the final recommendation.

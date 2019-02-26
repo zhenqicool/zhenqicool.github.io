@@ -51,3 +51,17 @@ $$ z_{ui}^h = \varnothing(W^hz_{ui}^{h-1} + o_{ui}^h + b^h) $$
 $$ q_{uiv}^{h+1} = (z_{ui}^{h})^Tm_v \ \ \forall v \in N(i) $$
 
 + The output model receives the weighted neighborhood vector from the last hop $H^{th}$ to produce the final recommendation.
+
+### 3. Experimant
+#### Code 
++ Foking from ***[https://github.com/tebesu/CollaborativeMemoryNetwork](https://github.com/tebesu/CollaborativeMemoryNetwork)***
++ Enviroment
+
+```python
+        for u, i in self.train_data:
+            self.user_items[u].add(i)
+            self.item_users[i].add(u)
+            # Get a list version so we do not need to perform type casting
+            self.item_users_list[i].append(u)
+        self._max_user_neighbors = max([len(x) for x in self.item_users.values()])
+```

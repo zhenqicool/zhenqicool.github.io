@@ -10,8 +10,18 @@ twitter_username:  SBootstrap
 github_username:   BlackrockDigital
 facebook_username: StartBootstrap
 
+
 # Build settings
 markdown:          kramdown
+highlight: true
+kramdown:
+  input:  GFM
+  extensions:
+    - autolink
+    - footnotes
+    - smart
+  enable_coderay: true
+  syntax_highlighter: rouge
 paginate:          5
 paginate_path:     "/posts/page:num/"
 plugins:

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Notes for "Attention-based Models Global"
+title:  Notes for "Attention Content-Based Function"
 date: 2019-3-4 01
 background: "/img/note/attention/attention.png"
 ---

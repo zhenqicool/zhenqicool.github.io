@@ -1,0 +1,347 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    /* width: 1080px;
+    height: 1920px; */
+    width: 1080px;
+    height: 1920px;
+    background: white;
+    color: white;
+}
+
+span {
+    color: #02fff7;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+body {
+    background-image: url(../img/galaxy.jpg);
+    background-size: cover;
+    background-color: #3559aa;
+    overflow: hidden;
+}
+
+#div1 {
+    height: 14%;
+    /* background-color: blueviolet; */
+    display: flex;
+}
+
+/* 第一部分 */
+
+#div1>.logo {
+    width: 20%;
+    /* background: rebeccapurple; */
+}
+
+#div1>.logo>.img {
+    width: 100%;
+    margin-top: 37%;
+    margin-left: 5%;
+}
+
+#div1>.logo>.img>img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#div1>.num-of-reader {
+    margin-top: 3%;
+    margin-left: 2%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 第一部分文字标题 */
+
+#div1>.num-of-reader>.head {
+    font-size: 57px;
+}
+
+#div1>.num-of-reader>.head>span {
+    color: red;
+}
+
+/* 第一部分文字内容 */
+
+#div1>.num-of-reader>.cont {
+    /* margin-top: 10px; */
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#div1>.num-of-reader>.cont>div {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    /* width: 40%; */
+}
+
+.col_yel {
+    font-weight: bold;
+    font-family: helvetica;
+    text-align: center;
+    background: -webkit-linear-gradient(top, #fbff16, #f9edec);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.col_red {
+    font-weight: bold;
+    font-family: helvetica;
+    text-align: center;
+    background: -webkit-linear-gradient(top, #d20000, #844742);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.box {
+    margin-bottom: 2%;
+    width: 28%;
+    margin-right: 5%;
+    background: #2e7ccfc9;
+}
+
+/* 第二部分 */
+
+#div2 {
+    height: 7%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    font-size: 30px;
+}
+
+#div2>div {
+    width: 45%;
+    margin-left: 4%;
+}
+
+#div2>div>.head {
+    width: 90%;
+    /* margin-top: 4%; */
+    line-height: 34px;
+    height: 35%;
+}
+
+#div2>div>.head>span {
+    font-size: 48px;
+    float: right;
+}
+
+/* 进度条 */
+
+.container {
+    margin-top: 35px;
+    width: 92%;
+    /* background-color: #ddd; */
+    /* height: 25%; */
+    border: 2px solid #2196F3;
+    display: flex;
+}
+
+.container>span {
+    margin-left: 4%;
+}
+
+.skills {
+    text-align: left;
+    line-height: 40px;
+    padding-left: 60px;
+    color: white;
+}
+
+.css1 {
+    width: 56%;
+    background-color: #e2d135;
+    /* height: 100%; */
+}
+
+.css2 {
+    width: 56%;
+    background-color: #2dbb45;
+    /* height: 100%; */
+}
+
+/* 第三部分 */
+
+#div3 {
+    border-top: 2px solid #86cfefd6;
+    height: 10%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    font-size: 3em;
+    /* border-top: 5px solid #86cfefd6; */
+}
+
+#div3>:nth-child(1) {
+    margin-top: 1%;
+    margin-left: 4%;
+}
+
+#div3>.data {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 4%;
+    margin-right: 5%;
+    justify-content: space-between;
+}
+
+#div3>.data>div {
+    margin-top: 3%;
+    background: #2e7ccfc9;
+    text-align: center;
+    font-size: 30px;
+    width: 46%;
+}
+
+#div3>.data>div>div {
+    text-align: center;
+    margin-top: 2%;
+}
+
+#div3>.data>div>.number {
+    font-size: 2em;
+    color: red;
+}
+
+/* 第四部分 */
+
+#div4 {
+    margin-top: 2%;
+    font-size: 30px;
+    height: 15%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    /* border-top: 5px solid #86cfefd6; */
+}
+
+#chart1 {
+    height: 100%;
+    width: 95%;
+    /* margin-top: 2%; */
+    margin-left: 4%;
+}
+
+/* 第五部分 */
+
+#div5 {
+    font-size: 3em;
+    height: 17%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    /* border-top: 5px solid #86cfefd6; */
+}
+
+#div5>:nth-child(1) {
+    margin-top: 1%;
+    margin-left: 4%;
+}
+
+#chart2 {
+    height: 86%;
+    width: 95%;
+    /* background: red; */
+    /* margin-top: 2%; */
+    margin-left: 4%;
+}
+
+/* 第六部分 */
+
+#div6 {
+    font-size: 20px;
+    height: 17%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    /* border-top: 5px solid #86cfefd6; */
+}
+
+#div6>div {
+    height: 100%;
+    width: 50%;
+    /* background: rebeccapurple; */
+}
+
+#div6>.lef:nth-child(1) {
+    margin-left: 4%;
+}
+
+#chart3 {
+    height: 85%;
+    /* background: red; */
+    /* margin-top: 2%; */
+    margin-left: 9%;
+}
+
+#book {
+    display: flex;
+    height: 85%;
+}
+
+/* 这里改变图片大小 */
+
+#book>.img {
+    width: 32%;
+    margin-top: 5%;
+}
+
+#book>.img>img {
+    width: 100%;
+}
+
+#book>.disc {
+    font-size: 17px;
+    height: 90%;
+    width: 55%;
+    margin-left: 4%;
+    display: block;
+    /* white-space: nowrap; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* 第七部分 */
+
+#div7 {
+    font-size: 3em;
+    display: flex;
+}
+
+#div7>:nth-child(1) {
+    margin-left: 4%;
+    width: 86%;
+}
+
+#div7>:nth-child(2) {
+    margin-left: 4%;
+    width: 93%;
+}
+
+#div7>.lef>.note {
+    margin-top: 2%;
+    width: 95%;
+    font-size: 16px;
+}
+
+#div7>.rit>.note {
+    margin-top: 2%;
+    width: 90%;
+    font-size: 16px;
+}
+
+.yel {
+    font-size: 29px;
+    font-weight: bold;
+    font-family: helvetica;
+    background: -webkit-linear-gradient(top, #fbff16, #f9edec);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

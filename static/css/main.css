@@ -19,7 +19,7 @@ body {
     background-image: url(../img/galaxy.jpg);
     background-size: cover;
     background-color: #3559aa;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 #div1 {
@@ -31,7 +31,7 @@ body {
 /* 第一部分 */
 
 #div1>.logo {
-    width: 20%;
+    width: 246px;
     /* background: rebeccapurple; */
 }
 
@@ -111,15 +111,15 @@ body {
 /* 第二部分 */
 
 #div2 {
-    height: 7%;
+    height: 160px;
     /* background-color: rebeccapurple; */
     display: flex;
     font-size: 30px;
 }
 
 #div2>div {
-    width: 45%;
-    margin-left: 4%;
+    width: 491px;
+    margin-left: 34px;
 }
 
 #div2>div>.head {
@@ -146,7 +146,7 @@ body {
 }
 
 .container>span {
-    margin-left: 4%;
+    margin-left: 34px;
 }
 
 .skills {
@@ -172,7 +172,7 @@ body {
 
 #div3 {
     /* border-top: 2px solid #86cfefd6; */
-    height: 10%;
+    height: 190px;
     /* background-color: rebeccapurple; */
     display: flex;
     flex-direction: column;
@@ -182,13 +182,13 @@ body {
 
 #div3>:nth-child(1) {
     margin-top: 1%;
-    margin-left: 4%;
+    margin-left: 34px;
 }
 
 #div3>.data {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 4%;
+    margin-left: 34px;
     margin-right: 5%;
     justify-content: space-between;
 }
@@ -214,9 +214,9 @@ body {
 /* 第四部分 */
 
 #div4 {
-    margin-top: 2%;
+    /* margin-top: ; */
     font-size: 30px;
-    height: 15%;
+    height: 280px;
     /* background-color: rebeccapurple; */
     display: flex;
     flex-direction: column;
@@ -227,14 +227,14 @@ body {
     height: 100%;
     width: 95%;
     /* margin-top: 2%; */
-    margin-left: 4%;
+    margin-left: 34px;
 }
 
 /* 第五部分 */
 
 #div5 {
     font-size: 3em;
-    height: 17%;
+    height: 300px;
     /* background-color: rebeccapurple; */
     display: flex;
     flex-direction: column;
@@ -243,7 +243,7 @@ body {
 
 #div5>:nth-child(1) {
     margin-top: 1%;
-    margin-left: 4%;
+    margin-left: 34px;
 }
 
 #chart2 {
@@ -251,14 +251,14 @@ body {
     width: 95%;
     /* background: red; */
     /* margin-top: 2%; */
-    margin-left: 4%;
+    margin-left: 34px;
 }
 
 /* 第六部分 */
 
 #div6 {
     font-size: 20px;
-    height: 17%;
+    height: 340px;
     /* background-color: rebeccapurple; */
     display: flex;
     /* border-top: 5px solid #86cfefd6; */
@@ -271,7 +271,7 @@ body {
 }
 
 #div6>.lef:nth-child(1) {
-    margin-left: 4%;
+    margin-left: 34px;
 }
 
 #chart3 {
@@ -301,7 +301,7 @@ body {
     font-size: 17px;
     height: 90%;
     width: 55%;
-    margin-left: 4%;
+    margin-left: 34px;
     display: block;
     /* white-space: nowrap; */
     overflow: hidden;
@@ -316,12 +316,12 @@ body {
 }
 
 #div7>:nth-child(1) {
-    margin-left: 4%;
+    margin-left: 34px;
     width: 86%;
 }
 
 #div7>:nth-child(2) {
-    margin-left: 4%;
+    margin-left: 34px;
     width: 93%;
 }
 

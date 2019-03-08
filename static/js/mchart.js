@@ -284,6 +284,15 @@ function chart3() {
     var mjBoxOption = option = {
         radius: '70%',
         legend: {
+            // formatter: function (name) {
+            //     return (name.length > 8 ? (name.slice(0,8)+"...") : name ); 
+            // },
+            formatter: function(v) {
+                let text = v
+                return text.length < 6 
+                    ? text 
+                    : `${text.slice(0,6)}\n${text.slice(6)}`
+            },
             orient: 'vertical',
             x: 'left',
             y: 60,

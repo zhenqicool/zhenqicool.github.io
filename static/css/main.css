@@ -19,7 +19,7 @@ body {
     background-image: url(../img/galaxy.jpg);
     background-size: cover;
     background-color: #3559aa;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 #div1 {

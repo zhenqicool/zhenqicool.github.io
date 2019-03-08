@@ -2,6 +2,9 @@ $(function () {
     chart1();
     chart2();
     chart3();
+    // 增加一本借阅记录，执行一次
+    $('#borrow').prepend('sadsas**（214132412423******）您成功借阅了一本《爱的秘密》</br>')
+    
 
 });
 //折线统计图
@@ -157,7 +160,7 @@ function chart2() {
             x: 50,
             y: 10,
             x2: 50,
-            y2: 60,
+            y2: 50,
             borderWidth: 1,
             containLabel: true
         },

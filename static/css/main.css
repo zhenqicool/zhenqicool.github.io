@@ -19,11 +19,11 @@ body {
     background-image: url(../img/galaxy.jpg);
     background-size: cover;
     background-color: #3559aa;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 #div1 {
-    height: 14%;
+    height: 282px;
     /* background-color: blueviolet; */
     display: flex;
 }
@@ -69,7 +69,7 @@ body {
 /* 第一部分文字内容 */
 
 #div1>.num-of-reader>.cont {
-    margin-top: 10px;
+    margin-top: 14px;
     font-size: 30px;
     display: flex;
     flex-wrap: wrap;
@@ -329,6 +329,8 @@ body {
     margin-top: 2%;
     width: 95%;
     font-size: 16px;
+    max-height: 220px;
+    overflow-y: auto;
 }
 
 #div7>.rit>.note {
@@ -338,6 +340,7 @@ body {
 }
 
 .yel {
+    margin-top: 8px;
     font-size: 29px;
     font-weight: bold;
     font-family: helvetica;

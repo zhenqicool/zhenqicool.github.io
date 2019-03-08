@@ -69,7 +69,7 @@ body {
 /* 第一部分文字内容 */
 
 #div1>.num-of-reader>.cont {
-    margin-top: 14px;
+    margin-top: 25px;
     font-size: 30px;
     display: flex;
     flex-wrap: wrap;

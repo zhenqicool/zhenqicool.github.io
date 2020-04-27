@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Theory of Decision Tree
+title: Theory of Decision Tree 11
 date:   2019-03-05 1
 background: '/img/note/H(D).png'
 categories: neural_network

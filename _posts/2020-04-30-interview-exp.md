@@ -1,6 +1,6 @@
 ---
 layout: post
-title: BATM 自然语言处理面经（BAM Offered）
+title: BATM 自然语言处理面经（TM Offered、BA waiting HR面）
 date: 2020-04-30 12:44
 background: '/img/note/interview.png'
 categories: neural_network

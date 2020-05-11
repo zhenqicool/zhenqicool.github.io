@@ -1,6 +1,6 @@
 ---
 layout: post
-title: BATM 自然语言处理面经（TM Offered、BA Hr面waiting）
+title: BATM 自然语言处理面经（ATM Offered、B waiting）
 date: 2020-04-30 12:44
 background: '/img/note/interview.png'
 categories: neural_network
@@ -158,7 +158,7 @@ categories: neural_network
 2. **二面**
    1. 存谈项目，项目中使用的相关技术精确到论文级别的细节了解
    
-#### 阿里巴巴一面、二面、三面
+#### 阿里巴巴一面、二面、三面（leader）、四面（交叉leader）、五面（HR）、六面（leader）
 1. **一面**
    1. 负采样公式、
    2. GRU、RNN公式推导、
@@ -183,6 +183,21 @@ categories: neural_network
    2. 随机森林、XgBoost、LGB区别与联系、
    3. XgBoost推导、
    4. 样本不均衡、特征缺失、特征不均衡分别处理方法
+4. **四面**
+   1. 项目细节（使用的相关技术精确到论文级别的细节了解）、
+   2. 定义二叉树两节点间距离为路径长度，求给定一颗二叉树的最长距离、
+   3. 论文、专利细节、
+   4. 样本不均衡、特征缺失处理方法
+5. **五面HR**
+   1. 聊天、
+   2. 最有困难的事以及如何克服、
+   3. 学生经历、
+   4. 成长经历
+6. **六面**
+   1. 最大子数组和、
+   2. 两数之和问题、
+   3. 项目经验、
+   4. 阿里公司文化介绍
 
 #### 腾讯一面、二面
 1. **一面**
